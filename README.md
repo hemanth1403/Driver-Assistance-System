@@ -27,14 +27,14 @@ The proposed system has 2 point of views
 <br>
 <h3>POV_1 : Monitoring the external environment </h3>
 <br>
-<h5>class UML diagram</h5>
-   <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Class_UML.png">
-   <br>
-<h5>Collaboration UML diagram</h5>
-   <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Collaboration_UML.png">
-   <br>
-<h5>Sequence UML diagram</h5>
-   <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Sequence_UML.png">
-   <br>
-<h5>Usecase UML Diagram</h5>
-   <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/UseCase_UML.png">
+<h4>class UML diagram</h4>
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Class_UML.png">
+<br>
+<h4>Collaboration UML diagram</h4>
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Collaboration_UML.png">
+<br>
+<h4>Sequence UML diagram</h4>
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Sequence_UML.png">
+<br>
+<h4>Usecase UML Diagram</h4>
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/UseCase_UML.png">
