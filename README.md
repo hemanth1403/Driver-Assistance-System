@@ -38,3 +38,10 @@ The proposed system has 2 point of views
 
 <h4>Usecase UML Diagram</h4>
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/UseCase_UML.png">
+
+<h3>POV_2 : Monitoring the internal environment </h3>
+<h4>UML diagram</h4>
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_2/Drowsiness.png">
+
+<h4>Psudo code</h4>
+<img src="">
