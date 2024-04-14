@@ -26,15 +26,15 @@ The proposed system has 2 point of views
 2. POV_2 -> Monitoring the internal environment
 <br>
 <h3>POV_1 : Monitoring the external environment </h3>
-<br>
+
 <h4>class UML diagram</h4>
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Class_UML.png">
-<br>
+
 <h4>Collaboration UML diagram</h4>
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Collaboration_UML.png">
-<br>
+
 <h4>Sequence UML diagram</h4>
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/Sequence_UML.png">
-<br>
+
 <h4>Usecase UML Diagram</h4>
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_1/UseCase_UML.png">
