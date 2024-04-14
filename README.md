@@ -189,8 +189,8 @@ The proposed system has 2 point of views
 
 ### Submitted By
 
-- **Name:** Team-10
-- **Program:** B. Tech CSE - AIML
+- **Name:** Team - 10
+- **Program:** B.Tech CSE - AIML
 - **Institution:** MLR Institute of Technology
 - **Contact:**
   - _E-Mail:_ hemanthsai826@gmail.com
