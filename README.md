@@ -24,7 +24,7 @@ The proposed system has 2 point of views
 
 1. POV_1 -> Monitoring the external environment
 2. POV_2 -> Monitoring the internal environment
-<br>
+
 <h3>POV_1 : Monitoring the external environment </h3>
 
 <h4>class UML diagram</h4>
