@@ -125,7 +125,9 @@ The proposed system has 2 point of views
   | Object          | `ObjectModelType.YOLOV7`         | Support yolov7 tiny/x/w/e/d model.                |
   | Object          | `ObjectModelType.YOLOV8`         | Support yolov8n/s/m/l/x model.                    |
   | Object          | `ObjectModelType.YOLOV9`         | Support yolov9s/m/c/e model.                      |
-  | Object          | `ObjectModelType.EfficientDet`   | Support efficientDet b0/b1/b2/b3 model.              |
+  | Object          | `ObjectModelType.EfficientDet`   | Support efficientDet b0/b1/b2/b3 model.           |
+
+
   * Run for POV_1:
 
    ```
