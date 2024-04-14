@@ -183,3 +183,20 @@ The proposed system has 2 point of views
 2.  Drowsy driver :
 
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-02-21%20at%207.50.26%E2%80%AFPM.png">
+<br>
+<br>
+<h4>This repository contains the submission for our project by Madadapu HemanthSai and Team, B. Tech CSE - AIML student from MLR Institute of Technology. The project encompasses solutions to problems demonstrating proficiency in machine learning and computer vision.</h4>
+
+### Submitted By
+
+- **Name:** Team-10
+- **Program:** B. Tech CSE - AIML
+- **Institution:** MLR Institute of Technology
+- **Contact:**
+  - _E-Mail:_ hemanthsai826@gmail.com
+  - _Website:_ [http://vs666.github.io](https://github.com/hemanth1403)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
