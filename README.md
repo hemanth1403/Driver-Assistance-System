@@ -154,4 +154,32 @@ The proposed system has 2 point of views
 &nbsp  &nbsp &nbsp 11. 12v 2A Power supply <br>
 &nbsp  &nbsp &nbsp 12. 15 pin to 22 pin cable <br>
 <h3>Hardware Integration : </h3>
-<img src="">
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Architecture%20and%20Flow%20charts/Hardware.jpg">
+
+<h2>Results : </h2>
+
+<h3>POV_1 : Monitoring the external environment</h3>
+
+1. Front Collision Warning System :
+
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-04-15%20at%2012.17.36%E2%80%AFAM.png">
+
+2. Lane Departure Warning System :
+
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-04-15%20at%2012.20.14%E2%80%AFAM.png">
+
+3. Lane Keeping Assist System :
+
+<img src= "https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-04-15%20at%2012.14.07%E2%80%AFAM.png">
+
+<h3>POV_2 : Monitoring the internal environment</h3>
+
+[ EAR -> Eye aspect ratio ]
+
+1.  Active driver :
+
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-02-21%20at%207.49.40%E2%80%AFPM.png">
+
+2.  Drowsy driver :
+
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Results/Screenshot%202024-02-21%20at%207.50.26%E2%80%AFPM.png">
