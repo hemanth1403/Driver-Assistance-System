@@ -97,61 +97,61 @@ The proposed system has 2 point of views
   - Setting Config :
     > Note : can support onnx/tensorRT format model. But it needs to match the same model type.
 
+  ```python
+  lane_config = {
+   "model_path": "./TrafficLaneDetector/models/culane_res18.trt",
+   "model_type" : LaneModelType.UFLDV2_CULANE
+  }
 
-      ```python
-      lane_config = {
-       "model_path": "./TrafficLaneDetector/models/culane_res18.trt",
-       "model_type" : LaneModelType.UFLDV2_CULANE
-      }
+  object_config = {
+   "model_path": './ObjectDetector/models/yolov8l-coco.trt',
+   "model_type" : ObjectModelType.YOLOV8,
+   "classes_path" : './ObjectDetector/models/coco_label.txt',
+   "box_score" : 0.4,
+   "box_nms_iou" : 0.45
+  }
+  ```
 
-      object_config = {
-       "model_path": './ObjectDetector/models/yolov8l-coco.trt',
-       "model_type" : ObjectModelType.YOLOV8,
-       "classes_path" : './ObjectDetector/models/coco_label.txt',
-       "box_score" : 0.4,
-       "box_nms_iou" : 0.45
-      }
+  | Target | Model Type                      | Describe                                         |
+  | :----: | :------------------------------ | :----------------------------------------------- |
+  | Lanes  | `LaneModelType.UFLD_TUSIMPLE`   | Support Tusimple data with ResNet18 backbone.    |
+  | Lanes  | `LaneModelType.UFLD_CULANE`     | Support CULane data with ResNet18 backbone.      |
+  | Lanes  | `LaneModelType.UFLDV2_TUSIMPLE` | Support Tusimple data with ResNet18/34 backbone. |
+  | Lanes  | `LaneModelType.UFLDV2_CULANE`   | Support CULane data with ResNet18/34 backbone.   |
+  | Object | `ObjectModelType.YOLOV5`        | Support yolov5n/s/m/l/x model.                   |
+  | Object | `ObjectModelType.YOLOV5_LITE`   | Support yolov5lite-e/s/c/g model.                |
+  | Object | `ObjectModelType.YOLOV6`        | Support yolov6n/s/m/l, yolov6lite-s/m/l model.   |
+  | Object | `ObjectModelType.YOLOV7`        | Support yolov7 tiny/x/w/e/d model.               |
+  | Object | `ObjectModelType.YOLOV8`        | Support yolov8n/s/m/l/x model.                   |
+  | Object | `ObjectModelType.YOLOV9`        | Support yolov9s/m/c/e model.                     |
+  | Object | `ObjectModelType.EfficientDet`  | Support efficientDet b0/b1/b2/b3 model.          |
 
-  ````
-  | Target          | Model Type                       |  Describe                                         |
-  | :-------------: |:-------------------------------- | :------------------------------------------------ |
-  | Lanes           | `LaneModelType.UFLD_TUSIMPLE`    | Support Tusimple data with ResNet18 backbone.     |
-  | Lanes           | `LaneModelType.UFLD_CULANE`      | Support CULane data with ResNet18 backbone.       |
-  | Lanes           | `LaneModelType.UFLDV2_TUSIMPLE`  | Support Tusimple data with ResNet18/34 backbone.  |
-  | Lanes           | `LaneModelType.UFLDV2_CULANE`    | Support CULane data with ResNet18/34 backbone.    |
-  | Object          | `ObjectModelType.YOLOV5`         | Support yolov5n/s/m/l/x model.                    |
-  | Object          | `ObjectModelType.YOLOV5_LITE`    | Support yolov5lite-e/s/c/g model.                 |
-  | Object          | `ObjectModelType.YOLOV6`         | Support yolov6n/s/m/l, yolov6lite-s/m/l model.    |
-  | Object          | `ObjectModelType.YOLOV7`         | Support yolov7 tiny/x/w/e/d model.                |
-  | Object          | `ObjectModelType.YOLOV8`         | Support yolov8n/s/m/l/x model.                    |
-  | Object          | `ObjectModelType.YOLOV9`         | Support yolov9s/m/c/e model.                      |
-  | Object          | `ObjectModelType.EfficientDet`   | Support efficientDet b0/b1/b2/b3 model.           |
+  - Run for POV_1:
 
+  ```
+  python demo.py
+  ```
 
-  * Run for POV_1:
+  - Run for POV_2:
+    (change the directory to Drowsiness detector)
 
-   ```
-   python demo.py
-   ```
-  * Run for POV_2:
-  (change the directory to Drowsiness detector)
-   ```
-   python detect.py
-   ```
-  <h2>Hardware setup : </h2>
-  <h3>Hardware requirements : </h3>
-  &nbsp  &nbsp &nbsp 1. Jetson orin nano <br>
-  &nbsp  &nbsp &nbsp 2. Servo motor <br>
-  &nbsp  &nbsp &nbsp 3. Pi camera module 3 <br>
-  &nbsp  &nbsp &nbsp 4. Power bank (10000 to 20000 mAh) <br>
-  &nbsp  &nbsp &nbsp 5. Arduino Nano <br>
-  &nbsp  &nbsp &nbsp 6. ADXL - 345 <br>
-  &nbsp  &nbsp &nbsp 7. GPS Neo - 6m <br>
-  &nbsp  &nbsp &nbsp 8. GSM SIM800I <br>
-  &nbsp  &nbsp &nbsp 9. LM2596 step converter <br>
-  &nbsp  &nbsp &nbsp 10. Zero PCB <br>
-  &nbsp  &nbsp &nbsp 11. 12v 2A Power supply <br>
-  &nbsp  &nbsp &nbsp 12. 15 pin to 22 pin cable <br>
-  <h3>Hardware Integration : </h3>
-  <img src="">
-  ````
+  ```
+  python detect.py
+  ```
+
+<h2>Hardware setup : </h2>
+<h3>Hardware requirements : </h3>
+&nbsp  &nbsp &nbsp 1. Jetson orin nano <br>
+&nbsp  &nbsp &nbsp 2. Servo motor <br>
+&nbsp  &nbsp &nbsp 3. Pi camera module 3 <br>
+&nbsp  &nbsp &nbsp 4. Power bank (10000 to 20000 mAh) <br>
+&nbsp  &nbsp &nbsp 5. Arduino Nano <br>
+&nbsp  &nbsp &nbsp 6. ADXL - 345 <br>
+&nbsp  &nbsp &nbsp 7. GPS Neo - 6m <br>
+&nbsp  &nbsp &nbsp 8. GSM SIM800I <br>
+&nbsp  &nbsp &nbsp 9. LM2596 step converter <br>
+&nbsp  &nbsp &nbsp 10. Zero PCB <br>
+&nbsp  &nbsp &nbsp 11. 12v 2A Power supply <br>
+&nbsp  &nbsp &nbsp 12. 15 pin to 22 pin cable <br>
+<h3>Hardware Integration : </h3>
+<img src="">
