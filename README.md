@@ -44,4 +44,4 @@ The proposed system has 2 point of views
 <img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/UML%20Diagrams/POV_2/Drowsiness.png">
 
 <h4>Psudo code</h4>
-<img src="">
+<img src="https://github.com/hemanth1403/Driver-Assistance-System/blob/main/Architecture%20and%20Flow%20charts/Psudo_Drowsiness.png">
