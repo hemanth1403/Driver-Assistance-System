@@ -194,7 +194,7 @@ The proposed system has 2 point of views
 - **Institution:** MLR Institute of Technology
 - **Contact:**
   - _E-Mail:_ hemanthsai826@gmail.com
-  - _Website:_ [http://vs666.github.io](https://github.com/hemanth1403)
+  - _Website:_ [https://github.com/hemanth1403](https://hemanth1403.github.io/)
 
 ## Contributing
 
